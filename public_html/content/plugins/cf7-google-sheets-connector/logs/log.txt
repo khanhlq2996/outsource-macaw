@@ -1,0 +1,57 @@
+27 Tháng Chín 2019 04:42:56 	 PHP 5.6.40Array
+(
+    [date] => 27/09/2019
+    [time] => 4:42 sáng
+    [serial-number] => 
+    [remote-ip] => 27.76.204.60
+    [user-agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+    [url] => https://macaw.khanhlq.com/
+    [post-id] => 30
+    [post-name] => trang-chu
+    [post-title] => Trang chủ
+    [post-url] => https://macaw.khanhlq.com/
+    [post-author] => admin
+    [post-author-email] => 123@123.123
+    [site-title] => Web Bases
+    [site-description] => khanhlq.com
+    [site-url] => https://macaw.khanhlq.com
+    [site-admin-email] => demo@khanhlq.com
+    [user-login] => 
+    [user-email] => 
+    [user-url] => 
+    [user-first-name] => 
+    [user-last-name] => 
+    [user-nickname] => 
+    [user-display-name] => 
+    [g-recaptcha-response] => 
+    [your-name] => Lê Quốc Khánh
+    [your-phone] => 0388295534
+    [your-email] => khanhlq@khanhlq.com
+    [ERROR_MSG] => Error in Google Request
+    [TRACE_STK] => #0 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/DefaultServiceRequest.php(146): Google\Spreadsheet\DefaultServiceRequest->execute(Resource id #675)
+#1 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/ListFeed.php(78): Google\Spreadsheet\DefaultServiceRequest->post('https://spreads...', '<entry xmlns="h...')
+#2 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(83): Google\Spreadsheet\ListFeed->insert(Array)
+#3 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(175): cf7gsc_googlesheet->add_row(Array)
+#4 [internal function]: Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/class-wp-hook.php(286): call_user_func_array(Array, Array)
+#6 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/plugin.php(465): WP_Hook->do_action(Array)
+#8 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/contact-form-7/includes/submission.php(213): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#9 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/contact-form-7/includes/submission.php(33): WPCF7_Submission->submit()
+#10 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/contact-form-7/includes/contact-form.php(730): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#11 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/content/plugins/contact-form-7/includes/rest-api.php(280): WPCF7_ContactForm->submit()
+#12 [internal function]: wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#13 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/rest-api/class-wp-rest-server.php(946): call_user_func('wpcf7_rest_crea...', Object(WP_REST_Request))
+#14 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/rest-api.php(309): WP_REST_Server->serve_request('/contact-form-7...')
+#16 [internal function]: rest_api_loaded(Object(WP))
+#17 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/class-wp-hook.php(286): call_user_func_array('rest_api_loaded', Array)
+#18 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#19 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/plugin.php(531): WP_Hook->do_action(Array)
+#20 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#21 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/class-wp.php(737): WP->parse_request('')
+#22 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/libs/functions.php(1105): WP->main('')
+#23 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/blog-header.php(16): wp()
+#24 /home/khanhlqdm/domains/macaw.khanhlq.com/public_html/index.php(17): require('/home/khanhlqdm...')
+#25 {main}
+)
