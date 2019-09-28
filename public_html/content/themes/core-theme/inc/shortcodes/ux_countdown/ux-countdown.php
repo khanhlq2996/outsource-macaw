@@ -45,9 +45,11 @@ function ux_countdown_shortcode( $atts ){
     $date = $year.'/'.$month.'/'.$day;
 
     // Fix Time
-    if($time == '24:00') $time = '23:59:59';
-
-    if($time) $date = $date.' '.$time;
+    $time = '23:59:59';
+	
+	date_default_timezone_set('Asia/Ho_Chi_Minh');
+	
+    if($time) $date = date("Y/m/d").' '.$time;
 
     if($color == 'primary' && !isset($bg_color)){
       $color = false;

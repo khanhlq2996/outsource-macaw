@@ -240,6 +240,17 @@ div#masthead {
 #dang-ky-tt .col {
     text-align: center !important;
 }
+.pricing-table-items.items>.uk-child-width-1-2.uk-grid-small.uk-flex-middle.uk-grid {
+    padding-bottom: 0 !important;
+}
+.ux-timer>span {
+    color: #38b2fd !important;
+    font-size: 42px;
+    font-weight: 400;
+}
+.ux-timer {
+    margin-top: 0;
+}
 
 @media (min-width: 768px){
     .footer-secondary {
