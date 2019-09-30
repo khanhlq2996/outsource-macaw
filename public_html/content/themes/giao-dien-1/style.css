@@ -117,6 +117,7 @@ a#top-link {
 }
 #dang-ky-tt {
     text-align: center;
+    height: 100%;
 }
 .text-popup {
     font-size: 25px;
@@ -241,7 +242,7 @@ div#masthead {
     text-align: center !important;
 }
 .pricing-table-items.items>.uk-child-width-1-2.uk-grid-small.uk-flex-middle.uk-grid {
-    padding-bottom: 0 !important;
+    /* padding-bottom: 0 !important; */
 }
 .ux-timer>span {
     color: #38b2fd !important;
